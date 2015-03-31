@@ -3,8 +3,8 @@
 # Find missing element in array.
 
 # Assume:
-#  all element of array in [0..1,000,000]
-#  all elements of array are distinct
+#  all element of array a in [0..1,000,000]
+#  all elements of array a are distinct
 #  worst case time complexity is O(N)
 #  worst case space complexity is O(1) (not counting arguments)
 

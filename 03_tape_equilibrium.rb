@@ -4,7 +4,7 @@
 
 # Assume:
 #  Array a.length in [2..100,000]
-#  all elements of array in [-1000..1000]
+#  all elements of array a in [-1000..1000]
 #  worst case time complexity is O(N)
 #  worst case space complexity is O(N) (not counting arguments)
 
