@@ -36,7 +36,14 @@ RSpec.describe MissingInteger, '#solution' do
   end
 
   it 'handles extremely large arrays' do
-    a = (-1000..99000)
+    a = (-1000..99000).to_a
     expect(missing_integer.solution(a)).to eq(99001)
+  end
+
+  it 'handles large random array' do
+    left = (-1000..100).to_a
+    right = (102..99000).to_a
+    a = (left + right).shuffle
+    expect(missing_integer.solution(a)).to eq(101)
   end
 end
